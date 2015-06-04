@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_eol_maintenance_domain_SoftwareVersion" items="${softwareversions}" z="i8RouNCXBc0EnPfc+3BFkNUSoIk=">
+        <table:table data="${softwareversions}" id="l_com_eol_maintenance_domain_SoftwareVersion" path="/softwareversions" z="As61Ed7UPnEf3WTdAX5F87AXaO8=">
+            <table:column id="c_com_eol_maintenance_domain_SoftwareVersion_dtype" property="dtype" z="l8J/yCRLaeDGhv96i7UuTgsHRwQ="/>
+            <table:column id="c_com_eol_maintenance_domain_SoftwareVersion_majorVersion" property="majorVersion" z="7ldV0Y1LO03dC+1sSu2Bb6XuZ4o="/>
+            <table:column id="c_com_eol_maintenance_domain_SoftwareVersion_minorVersion" property="minorVersion" z="9oa00MuZ4qM4zJs6JHV+0o4QCZk="/>
+            <table:column id="c_com_eol_maintenance_domain_SoftwareVersion_currentVersion" property="currentVersion" z="0dAA0xybeaFOcl2EtvjLXwjAlfs="/>
+            <table:column id="c_com_eol_maintenance_domain_SoftwareVersion_incompleteVersion" property="incompleteVersion" z="A9cd2bm4NOZBfXQH5CnzCkDs9Fs="/>
+        </table:table>
+    </page:list>
+</div>

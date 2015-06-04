@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_eol_maintenance_domain_SoftwareVersion" object="${softwareversion}" path="/softwareversions" z="yc8IzMyGctbJbP3c1bKOGNQIIm8=">
+        <field:display field="dtype" id="s_com_eol_maintenance_domain_SoftwareVersion_dtype" object="${softwareversion}" z="h8YujHnz5ZYHRrbUX3KLdYhkD70="/>
+        <field:display field="majorVersion" id="s_com_eol_maintenance_domain_SoftwareVersion_majorVersion" object="${softwareversion}" z="MRk2hfLMtar0UAA/KND/QtRsRR0="/>
+        <field:display field="minorVersion" id="s_com_eol_maintenance_domain_SoftwareVersion_minorVersion" object="${softwareversion}" z="j+MEm8EoWOkvDOzsty3OZkvr+lU="/>
+        <field:display field="currentVersion" id="s_com_eol_maintenance_domain_SoftwareVersion_currentVersion" object="${softwareversion}" z="t0qJZozRS9ft+3nkSa6hlKQxww8="/>
+        <field:display field="incompleteVersion" id="s_com_eol_maintenance_domain_SoftwareVersion_incompleteVersion" object="${softwareversion}" z="XxdjBc8TllCFhycVY1l7VH3KSWY="/>
+        <field:display field="uuid" id="s_com_eol_maintenance_domain_SoftwareVersion_uuid" object="${softwareversion}" z="7/yP5mdopw5/k4UTlGlciX8EVRs="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="softwareversions/list">
+        <put-attribute name="body" value="/WEB-INF/views/softwareversions/list.jspx"/>
+    </definition>
+<definition extends="default" name="softwareversions/show">
+        <put-attribute name="body" value="/WEB-INF/views/softwareversions/show.jspx"/>
+    </definition>
+<definition extends="default" name="softwareversions/create">
+        <put-attribute name="body" value="/WEB-INF/views/softwareversions/create.jspx"/>
+    </definition>
+<definition extends="default" name="softwareversions/update">
+        <put-attribute name="body" value="/WEB-INF/views/softwareversions/update.jspx"/>
+    </definition>
+</tiles-definitions>

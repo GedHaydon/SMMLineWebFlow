@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_eol_maintenance_domain_SMMGroup" object="${smmgroup_}" path="/smmgroups" z="UWrnX3q6ugVfFfM9N8scF8k8Ifw=">
+        <field:display field="uuid" id="s_com_eol_maintenance_domain_SMMGroup_uuid" object="${smmgroup_}" z="voXmwomp+byQti18dF33NaStgYs="/>
+    </page:show>
+</div>

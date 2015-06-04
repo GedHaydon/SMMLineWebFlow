@@ -6,5 +6,13 @@
         <menu:category id="c_flows" z="5igpkb/e+HPIN8iUErvmM38Eqqk=">
             <menu:item id="i_flows_smmlinemainflow" messageCode="webflow_menu_enter" url="/SmmLineMainFlow" z="3487nYSFY9rhg8UbCECbuAuVW7I="/>
         </menu:category>
+        <menu:category id="c_softwareversion" z="umUOM23Z+GCFdPx+qixXLQwKRI4=">
+            <menu:item id="i_softwareversion_new" messageCode="global_menu_new" url="/softwareversions?form" z="51/F7bJmwMUJOw5usSqPw+UXuTQ="/>
+            <menu:item id="i_softwareversion_list" messageCode="global_menu_list" url="/softwareversions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="QSh7nAqr4L/4ic1Eqa5/5KKJiio="/>
+        </menu:category>
+        <menu:category id="c_smmgroup" z="R5wjW1iRjyy+ixAtLfpZNQA79Kw=">
+            <menu:item id="i_smmgroup_new" messageCode="global_menu_new" url="/smmgroups?form" z="aM2vjGn3R4pP9owRNrIHydC9A9A="/>
+            <menu:item id="i_smmgroup_list" messageCode="global_menu_list" url="/smmgroups?page=1&amp;size=${empty param.size ? 10 : param.size}" z="7Ji4zHHpYuFxllWr5BsPqF9M9PA="/>
+        </menu:category>
     </menu:menu>
 </div>

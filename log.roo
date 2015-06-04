@@ -13,3 +13,5 @@ jpa setup --provider HIBERNATE --database MYSQL --databaseName SMMDB --userName 
 entity jpa --class ~.domain.SMMGroup --testAutomatically 
 entity jpa --class ~.maintenance.domain.IdGenerator
 entity jpa --class ~.maintenance.domain.SoftwareVersion
+web mvc all --package ~.web
+web mvc all --package ~.web
