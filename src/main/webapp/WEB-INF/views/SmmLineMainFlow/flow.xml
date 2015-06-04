@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flow xmlns="http://www.springframework.org/schema/webflow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+
+    <!-- A sample view state -->
+    <view-state id="SMMGroupState" view="SmmLineMainFlow/SMMGroupView">
+    	<transition on="success" to="SMMLineState"/>
+    	<transition on="cancel" to="end-state"/>
+    </view-state>
+    
+    <view-state id="SMMLineState" view="SmmLineMainFlow/SMMLineView">
+     	<transition on="back" to="SMMGroupState"/>  
+    	<transition on="success" to="SMMSelectProduct"/>   
+    	<transition on="cancel" to="end-state"/>
+    </view-state>
+    
+    
+   <view-state id="SMMSelectProduct" view="SmmLineMainFlow/SMMSelectProductView">
+     	<transition on="back" to="SMMLineState"/>  
+    	<transition on="success" to="SMMLineCreateNewProduct"/>     	 
+    	<transition on="cancel" to="end-state"/>
+    </view-state>
+    
+   <view-state id="SMMLineCreateNewProduct" view="SmmLineMainFlow/SMMLineCreateNewProductView">
+     	<transition on="back" to="SMMSelectProduct"/>  
+    	<transition on="success" to="end-state"/>     	 
+    	<transition on="cancel" to="end-state"/>
+    </view-state>    
+        
+    
+    <!-- A sample end state -->
+    <end-state id="end-state" view="SmmLineMainFlow/end-state"/>
+	
+</flow>
